@@ -7,6 +7,8 @@ import matplotlib.pyplot as plt
 
 from utils import read_pdf, split_document, topic_modeling, classify_and_cluster, create_wordcloud
 
+import nltk
+nltk.download('punkt')
 
 # Set Streamlit page configuration to wide
 st.set_page_config(layout="wide")
